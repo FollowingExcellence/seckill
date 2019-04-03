@@ -16,7 +16,7 @@ public class SeckillExecution {
     //状态表示
     private String stateInfo;
 
-    //秒杀成功对象
+    //当秒杀成功时，需要传递秒杀成功的对象回去
     private SuccessKilled successKilled;
 
     public SeckillExecution(long seckillId, SeckillStateEnum stateEnum, SuccessKilled successKilled) {
